@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <style type="text/css">
+header{
+ background-color:#333333;
+}
+.ul1{
+color:#ffffff;
+display:inline;
+position:relative;
+}
+#searchbar{position:relative; width:1040px; height:auto;}
+.formulaire               {display:inline-block;}
+.formulaire .champ       {width:600px; height:35px;}
+.formulaire .bouton       { background-image: url(images/searchbar_button.png);background-repeat: no-repeat;width: 35px;height: 35px;padding: 0; }
+    </style>
+<header>
+<br>
+<h2>Master Ted Dorenavant</h2> 
+<br>
+<ul class="ul1">
+<li >Accueil</li>
+<li >Contacts</li>
+<li >A Propos</li>
+</ul>
+</header>
+
+</head>
+<body>
+<div id="searchbar">
+                
+                        <h1>What would you like to search?</h1>
+                <form action="" class="formulaire">
+               <input class="champ" type="text" value="Search...)"/>
+                    <input class="bouton" type="button" value=" " />
+                     
+                </form>
+                </div>
+    <div>
+  Envoyer Mail <a href="mailto:lemaster2021@gmail.com">par ici</a>
+  Telecharger mon jeu<a href="a.mp4" download="a.mp4">Cliquer ici</a>
+    </div>
+Petite Page
+<ul type="square">
+<li ><a href="#partie1">Attaquons la premiere partie maintenant </a></li>
+ <li ><a href="#partie2">Suivons avec la deuxieme partie</a></li>
+ <li ><a href="#partie3">Terminons avec la troisieme partie </a></li> 
+</ul>
+<h2 id="partie1">Attaquons la premiere partie maintenant</h2>
+</body>
+</html>
